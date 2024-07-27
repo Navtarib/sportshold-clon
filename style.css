@@ -1,0 +1,436 @@
+*{
+margin: 0px;
+padding: 0px;
+box-sizing: border-box;
+}
+body{
+    background-color: #FFFFFF;
+    display: flex;
+    justify-content: center;
+
+}
+.main{
+    
+    margin: 0;
+    width: 1680px;
+    height: auto;
+}
+.main .header{
+    width: 100%;
+    height: 50px;
+    background-color: #482424;
+    display: flex;
+    justify-content: space-around;
+    font-family: Trueno;
+    font-weight: 100;
+}
+.main .header .left{
+    width: 400px;
+    height: 90px;
+}
+.main .header .left ul{
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+
+}
+.main .header .left ul li a{
+    text-decoration: none;
+    color: white;
+}
+
+.main .header .left ul li{
+    width: 100px;
+    height: 50px;  
+    display: flex;
+    justify-content: center;  
+    align-items: center;
+}
+
+.main .header .left ul li:hover{
+    background-color:#FF7270;
+    
+}
+
+
+.main .header .right{
+    width: 400px;
+    height: 90px;
+}
+.main .header .right ul{
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+
+}
+.main .header .right ul li a{
+    text-decoration: none;
+    color: white;
+}
+
+.main .header .right ul li{
+    width: 120px;
+    height: 50px;  
+    display: flex;
+    justify-content: center;  
+    align-items: center;
+}
+
+.main .header .right ul li:hover{
+    background-color:#FF7270;
+    
+}
+.main .header1{
+    width: 100%;
+    height: 75px;
+    background-color: #633231;
+    display: flex;
+    justify-content: space-around;
+    font-family: Trueno;
+    font-weight: 100;
+}
+.main .header1 .righti{
+    width: 650px;
+    height: 75px;
+}
+.main .header1 .righti ul{
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+
+}
+.main .header1 .righti ul li a{
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+
+.main .header1 .righti ul li{
+    width: 120px;
+    height: 75px;  
+    display: flex;
+    justify-content: center;  
+    align-items: center;
+}
+
+.main .header1 .righti ul li:hover{
+    border-bottom:5px solid #FF7270;
+    
+    
+}
+.main .header1 .lefti{
+    width: 250px;
+    height: 75px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+}
+.main .container{
+    width: 100%;
+    height: 560px;
+    background-color: #F0EFEE;
+     display: flex;
+    /* justify-content: space-around;  */
+    font-family: Trueno;
+    font-weight: 100;
+}
+.main .container .box1{
+    width: 100%;
+    height: 500px;
+    background-color: #F0EFEE;
+    display: flex;
+    justify-content: space-around;
+    align-items: stretch;
+
+}
+.main .container .box1 .shoe {
+    position: absolute;
+    left: 78px;
+    top: 35px;
+
+
+}
+.main .container  .text {
+    width: 117%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 25px ;
+text-align: left;
+padding-left: 150px;
+font-size: xx-large;
+
+}
+.main .container  .text button{
+    border:1px solid #FF7270;
+    width: 200px;
+    height: 40px;
+    background-color: #FF7270;
+    color: white;
+    font-weight: bold;
+    font-size: large;
+    
+
+}
+.main .container  .text button a{
+    text-decoration: none;
+    color: white;
+}
+.main .container  .text button:hover{
+    box-shadow: 5px 3px 5px 3px;
+}
+.main .container1{
+    padding-top: 24px;
+    width: 100%;
+    height: 600px;
+    display: flex;
+    gap: 24px;
+    justify-content: center; 
+    /* align-items: center; */
+    font-family: Trueno;
+    font-weight: 100;
+}
+.main .container1 .box2{
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+.main .container1 .box3{
+    display: flex;
+    gap: 24px;
+}
+
+.main .container1 .shoe1{
+    display: flex;
+    justify-content: space-around;
+    align-items: end;
+    width: 350px;
+    height: 420px;
+    background-color: #FF7270;
+    
+}
+.main .container1 .shoe1 button{
+    position: absolute;
+    margin-bottom: 18px;
+    margin-right: 16px;
+    width: 150px;
+    height: 50px;
+    border: none;
+    background-color: #42D9CE;
+    box-sizing: border-box;
+}
+.main .container1 .shoe1 button a{
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+
+}
+
+.main .container1 .box2 .shoe2{
+    display: flex;
+    justify-content: space-around;
+    align-items: end;
+
+    width: 420px;
+    height: 200px;
+    background-color: greenyellow;
+}
+.main .container1 .box2 .shoe2 button{
+    position: absolute;
+    margin-bottom: 36px;
+    margin-left: 150px;
+    width: 100px;
+    height: 40px;
+    border: none;
+    background-color: #633231;
+    box-sizing: border-box;
+
+}
+.main .container1 .box2 .shoe2 button a{
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+
+}
+
+
+.main .container1 .box3  .shoe3{
+    width: 200px;
+    height: 200px;
+    background-color: #e357ab;
+}
+.main .container1 .box3 .shoe4{
+    width: 200px;
+    height: 200px;
+    background-color: #a5e0f4;
+}
+.container2{
+    padding-top: 24px;
+    margin: 0 350px;
+    width: auto;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: Trueno;
+    font-weight: 100;
+
+}
+.container2 .products{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 24px;
+    
+}
+.container2 .products .photo a img{
+    width: 195px;
+    height: 295px;
+}
+.container2 .products .photo{
+    width: 200px;
+    height: 300px;
+    border: 1px solid gray;
+}
+.container2 .products .photo.photo:hover{
+    box-shadow: 3px 3px 3px 5px ;
+}
+.container2 .logos{
+    padding-top: 50px;
+    display: flex;
+    gap: 36px;
+align-items: center;
+}
+.abc{
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    align-items: center;
+}
+.footer{
+    width: 100%;
+    height: 200px;
+    background-color: #FF7270;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.footer .fleft{
+    display: flex;
+    flex-direction: column;
+    font-size: xx-large;
+    font-weight: bold;
+    color: white;
+}
+.lkj{
+    display: flex;
+    gap: 24px;
+
+}
+.fright button a{
+    text-decoration: none;
+    color: white;
+
+
+}
+.fright button{
+    background-color: #633231; 
+    width: 150px;
+    height: 50px;
+}
+.fright button:hover{
+    box-shadow: 3px 3px 3px 3px;
+}
+.footer1{
+    width: 100%;
+    height: auto;
+    background-color: #633231;
+
+}
+.icons{
+    margin: 0 350px;
+    width: auto;
+    height: auto;
+
+    padding-top: 24px;
+    display: flex;
+    justify-content: space-around;
+    font-size: xx-large;
+    color: #FF7270;
+
+
+}
+.ul ul{
+    margin: 0 350px;
+    width: auto;
+    height: auto;
+
+    padding-top: 24px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border-bottom: 1px solid gray;
+    padding-bottom: 24px;
+
+}
+.ul ul li{
+    list-style: none;
+    color: white;
+    width: 100px;
+    text-align: center;
+
+}
+.ul ul li a{
+    text-decoration: none;
+color: white;
+}
+.five{
+    margin: 0 350px;
+    width: auto;
+    height: auto;
+
+    padding-top: 24px;
+    display: flex;
+    justify-content: space-around;
+border-bottom: 1px solid gray;
+}
+.five .two ul li{
+    list-style: none;
+}
+.five .two ul li a{
+    color: white;
+    text-decoration: none;
+}
+.five .two ul{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: left;
+    gap: 18px;
+}
+.end{
+    margin: 0 350px;
+    width: auto;
+    height: auto;
+
+    padding-top: 24px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+}
+.r{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 24px;
+    font-size: larger;
+    color: white;
+}
+.r a{
+    text-decoration: none;
+    color: white;
+}
+
+
